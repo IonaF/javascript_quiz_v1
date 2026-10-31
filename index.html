@@ -8,24 +8,22 @@
         integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script>
-
-    </script>
+    <link rel="script" type="text/javascript" href="script.js">
 </head>
 
 <body>
     <div class="container">
         <h1>Welcome to my Quiz</h1>
-        <div class="row">
+        <div id="quizContent" class="row">
             <div class="col-sm-12">
-                <h2>Question <span></span></h2>
+                <h2 id="quizHeader">Question <span></span></h2>
                 
             </div>
             <div id="questions" class="row">
-                <div class="col-sm-6"> Answer</div>
-                <div class="col-sm-6"> Answer</div>
-                <div class="col-sm-6"> Answer</div>
-                <div class="col-sm-6"> Answer</div>
+                <div class="col-sm-6"> <a data-id="1" class="btn btn-default answer ">1</a> </div>
+                <div class="col-sm-6"> <a data-id="2" class="btn btn-default answer ">2</a> </div>
+                <div class="col-sm-6"> <a data-id="3" class="btn btn-default answer ">3</a> </div>
+                <div class="col-sm-6"> <a data-id="4" class="btn btn-default answer ">4</a> </div>
             </div>
             <div class="row pageMovement">
                 <div id="btnPrevious" class="col-xs-5 col-sm-4 btn btn-primary pull-left">Previous</div>
